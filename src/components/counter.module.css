@@ -1,0 +1,56 @@
+.wrapper {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(178,196,227,0.5); /* Light gray background to match */
+    padding: 20px;
+  }
+  
+  .card {
+    background-color: #ffffff;
+    border-radius: 16px; /* Rounded corners */
+    padding: 40px;
+    max-width: 600px;
+    text-align: center;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); /* Soft shadow */
+  }
+  
+  .title {
+    color: rgb(51,50,88);
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 5%;
+  }
+  
+
+  .divv{
+    margin-bottom: 5%;
+  }
+  .button {
+    background-color: rgb(51,50,88);
+    color: white;
+    padding: 10px 24px;
+    transition: background-color 0.2s ease-in-out, transform 0.2s ease-in-out;
+    border-radius: 50px; /* Rounded corners similar to the reference */
+ 
+  }
+  
+  .button:hover {
+    background-color: rgba(78,91,146,255);
+    transform: translateY(-3px); /* Slight lift on hover */
+  }
+  
+  @media (max-width: 600px) {
+    .wrapper {
+      padding: 15px;
+    }
+  
+    .card {
+      padding: 30px;
+    }
+  }
+  
+
+  .logo{
+    max-height: 50vh;
+  }
