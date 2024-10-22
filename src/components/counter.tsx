@@ -7,7 +7,7 @@ export default function Counter() {
   const [initialLoadCount, setInitialLoadCount] = useState<number>(0);
   const [buttonClickCount, setButtonClickCount] = useState<number>(0);
 
-  useEffect(() => {
+  useEffect(() => { 
     const interval = setInterval(() => {
       setInitialLoadCount((prevCount) => prevCount + 1);
     }, 1000);
