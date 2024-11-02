@@ -20,9 +20,9 @@ This application utilizes React hooks to manage state and side effects, which is
 - **`useEffect`**: Used to set up an interval that increments the counter every second when the component mounts, and to clean up the interval when the component unmounts. 
 
 These hooks enable a more efficient and readable way to handle component logic compared to class-based components.
+<br>
+<br>
 
-<br>
-<br>
 ## 📋 How to Use
 1. Clone the repository and install dependencies.
 2. Run the application with your preferred development server.
