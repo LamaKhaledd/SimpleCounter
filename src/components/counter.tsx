@@ -27,7 +27,7 @@ export default function Counter() {
         </Title>
         <div className={styles.divv}>
         <Text size="lg" color="dimmed" mt="md">
-          Page Loaded Count: {initialLoadCount}
+          Simple Counter: {initialLoadCount}
         </Text>
         <Text size="lg" color="dimmed" mt="sm">
           Button Click Count: {buttonClickCount}
